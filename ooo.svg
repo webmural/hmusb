@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-  <title>ozone</title>
+  <title>zap</title>
   <style>
     svg {
-      background: mediumpurple;
+      background: #ec0;
       background-image: linear-gradient(0turn, #1ed 0%, transparent 38%, transparent 62%, #cd2);
     }
   </style>
