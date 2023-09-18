@@ -4,26 +4,30 @@
 }
 
 :any-link {
-  background: hotpink;
-  color: inherit;
+  background: purple;
+  color: #ec0;
   transition: 333ms ease-out;
 }
 
 :any-link:only-child {
-  background: salmon;
+  background: indigo;
 }
 
 :focus {
-  filter: hue-rotate(-36deg);
+  filter: hue-rotate(-72deg);
   outline: .2ch double;
 }
 
 :active {
-  filter: hue-rotate(-72deg);
+  filter: hue-rotate(-144deg);
+}
+
+a:active {
+  filter: hue-rotate(-108deg);
 }
 
 html {
-  background: mediumpurple;
+  background: #ec0;
   background-image: linear-gradient(0turn, #1ed 0%, transparent 38%, transparent 62%, #cd2);
   color: #121113;
   transition: 333ms ease-in;
